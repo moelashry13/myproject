@@ -1,0 +1,59 @@
+/* =============
+ table of contents
+===============
+1. global styles
+2. navigation
+3. middle
+4. wave 
+*/
+/* global styles */
+*{margin: 0}
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+.cover{background-image: url(luxor2.jpg);
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+width: 1000px;}
+a:hover{
+    opacity: 1;}
+/* header */
+header{display: flex; 
+    justify-content: space-around;}
+
+.logo , nav{height: 100px;
+        width: 40%;
+        margin-top: 10px;
+       display: inline-flex;
+       margin-left: 10px;}
+
+p{display: inline-block;
+        color:#ebf0f5;
+        position: relative;
+        top: -15px;
+        font-size: 22px;
+        margin-top: 40px;}  
+
+a{color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 15px;
+        opacity: .5;
+        transform: all .03s;}
+
+.h1{font-size: 100px;
+             color: rgb(255, 187, 0);
+            text-align: center;}
+
+.navy{margin-left: 50px;}
+         /* header */
+
+         /* middle */
+.middle{display: flex;
+             margin-top: 20px;
+             margin-left: 20px;
+             justify-content: space-between;}  
+
+        .h2{font-size: 70px}
+
+        p{margin-left: 10px}

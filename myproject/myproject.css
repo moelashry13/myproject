@@ -1,0 +1,81 @@
+/* =============
+ table of contents
+===============
+
+1. global styles
+2. navigation
+3. middle
+4. wave 
+
+*/
+
+/* global styles */
+*{margin: 0;}
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+.cover{background-image: url(img2.png);
+    height: 650px;
+    background-repeat: no-repeat;
+  background-size: cover;}
+
+header ,.middle ,.wave{}
+
+/* header */
+header{display: flex; 
+    justify-content: space-around; }
+
+.logo , nav{height: 100px;
+    width: 40%;
+    margin-top: 10px;}
+
+p{display: inline-block;
+    color:#5D6D7E;
+    position: relative;
+    top: -15px;
+    font-size: 22px;}
+
+a{color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px;
+    opacity: .5;
+    transform: all .03s;}
+
+a:hover{opacity: 1;}
+/* middle */
+.middle{height: 300px}
+
+.h1{font-size: 80px;
+    color:#21618C;
+    text-align: center;}
+
+.p1{font-size: 40px;
+    text-align: center;
+    margin:220px;
+    margin-top: 10px;
+    color: #ff6600;}
+
+.dropdown{ height: 10px;
+  margin-left: 600px;}
+
+.cities{position: relative;}
+
+.cities ul{ position: absolute;
+    left: -5%;;
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 10px;}
+
+.dropdown, button{background: none;
+    border: none;
+    color: #21618C ;
+    text-decoration: none;
+    cursor: pointer;}
+
+.dropdown, button:hover{color: teal; }
+
+.cities, button:focus + ul{ opacity: 1;
+pointer-events: all;}
+/* waves */
